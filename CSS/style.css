@@ -183,7 +183,7 @@ button {
 
 .contact:hover .heder-contact-icon-mail,
 .contact:hover .heder-contact-icon-tel,
-.contact:focus .heder-contact-icon-tel,
+.contact:focus .heder-contact-icon-mail,
 .contact:focus .heder-contact-icon-tel {
   fill: var(--theme-color);
 }
@@ -209,6 +209,9 @@ button {
 /* <!-- Эффективные решения для вашего бизнеса --> */
 .herro {
   /* margin-top: 25px; */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
   padding: 200px 0;
   text-align: center;
   /* background-color: ; */
@@ -284,6 +287,7 @@ button {
 
 .why-we-container {
   margin-top: 95px;
+
 }
 
 .why-we-list {
@@ -304,6 +308,10 @@ button {
 .why-we-container-icon {
   background-color: #f5f4fa;
   display: flex;
+border-radius: 4px;
+height: 120px;
+align-items: center;
+justify-content: center;
 }
 .why-we-icon {
   width: 70px;
@@ -403,6 +411,8 @@ button {
 }
 .comand-sosial-box {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
   background-color: transparent;
@@ -417,7 +427,9 @@ button {
 }
 
 .sosial-icon {
-  margin: 12px 12px;
+  height: 20px;
+  width: 20px;
+
   fill: var(--social-color-primary);
 }
 .comand-sosial-box:hover .sosial-icon,
